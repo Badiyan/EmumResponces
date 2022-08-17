@@ -1,10 +1,5 @@
 ﻿using System;
 
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace EmumResponses
 {
     internal class Program
@@ -18,7 +13,7 @@ namespace EmumResponses
             Console.WriteLine("RESPONSE: text: {0} code: {1}", response, (int)response);
             Console.ReadLine();
 
-            
+            // already exists HttpStatusCode Enum
         }
     }
 }
